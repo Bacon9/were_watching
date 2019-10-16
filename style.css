@@ -1,0 +1,44 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Cute Font', cursive;
+	font-family: 'Roboto', sans-serif;
+}
+
+header.landing {
+	background-image: url("ufo_desktop_nexus.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	height: 100%;
+}
+
+.top-buffer { 
+	margin-top:20px;
+}
+
+.btn-xl {
+	padding: 0rem 1rem; 
+}
+
+.page-items {
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.btn-secondary {
+	pointer-events: auto;
+}
+
+.page-items:hover > * {
+	opacity: 0;
+	transition-duration: 2s;
+}
+
+.page-items:hover > *:hover {
+	transform: scale(1.1);
+ 	opacity: 100;
+}
